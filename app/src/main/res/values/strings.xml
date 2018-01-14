@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BizHunt</string>
+    <string name="welcome_to_chatting">Welcome to chatting</string>
+    <string name="signup">SignUp</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">LogIn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="request_fragment">request_fragment</string>
+    <string name="chat_fragment">chat_fragment</string>
+    <string name="friends_fragment">friends_fragment</string>
+    <string name="display_name">Display Name</string>
+    <string name="welcome_to_bizhunt_chatapp">Welcome to Bizhunt Chatapp</string>
+    <string name="chage_image">chage image</string>
+    <string name="chage_status">chage_Status</string>
+    <string name="change_status">Change Status</string>
+    <string name="default_status" />
+    <string name="your_status">your status</string>
+    <string name="update_status">Update Status</string>
+</resources>

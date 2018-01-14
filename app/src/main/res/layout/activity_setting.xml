@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:soundEffectsEnabled="false"
+    android:splitMotionEvents="false"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.sarvesh.bizhunt.SettingActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_marginTop="30dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/display_name"
+        android:id="@+id/display_name"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_status"
+        android:layout_below="@+id/display_name"
+        android:id="@+id/setting_status"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/chage_image"
+        android:textSize="24sp"
+        android:id="@+id/setting_image_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/setting_status"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/change_status"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:id="@+id/settign_status_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/setting_image_btn"/>
+
+
+
+
+</RelativeLayout>

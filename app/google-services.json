@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19753733360",
+    "firebase_url": "https://bizhunt-79506.firebaseio.com",
+    "project_id": "bizhunt-79506",
+    "storage_bucket": "bizhunt-79506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19753733360:android:6e7fb5ce30f82fab",
+        "android_client_info": {
+          "package_name": "com.example.sarvesh.bizhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19753733360-rnggo54c6bofpspelr91lk7u3ol6omml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarvesh.bizhunt",
+            "certificate_hash": "f7355b61bb59a2bc306bf454d6ddbffff2271af5"
+          }
+        },
+        {
+          "client_id": "19753733360-6m4o9kpen9ph82v31ki86612s1j6ki6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvD4Ol4uvKd0czVC2CRKbDqap8-0EnvUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19753733360-6m4o9kpen9ph82v31ki86612s1j6ki6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
